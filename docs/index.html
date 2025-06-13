@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portfólio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="text-white bg-gradient-to-br from-purple-600 to-blue-500 min-h-screen">
+
+    <!-- Cabeçalho -->
+    <header class="bg-opacity-20 backdrop-blur-md bg-white py-5 shadow-md">
+      <div class="container mx-auto px-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-white">Meu Portfólio</h1>
+        <nav>
+          <ul class="flex gap-6 text-lg">
+            <li><a href="#sobre" class="hover:text-yellow-300">Sobre</a></li>
+            <li><a href="#projetos" class="hover:text-yellow-300">Projetos</a></li>
+            <li><a href="#contato" class="hover:text-yellow-300">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="py-20">
+      <div class="container mx-auto px-4 text-center flex flex-col items-center">
+        
+        <!-- Foto em Círculo -->
+        <img src="https://i.postimg.cc/25c5hv4n/Foto-selecionada-1.jpg" alt="Foto de Perfil" class="w-40 h-40 rounded-full border-4 border-white shadow-lg mb-6">
+
+        <!-- Nome e Descrição -->
+        <h2 class="text-4xl font-bold mb-2">Olá, eu sou Luana Pinheiro</h2>
+        <p class="text-lg max-w-2xl mx-auto text-white/90 mb-6">
+          Sou uma desenvolvedora web apaixonado por criar soluções criativas e funcionais com HTML, CSS, TypeScript, React e frameworks modernos.
+        </p>
+
+        <!-- Botão de Currículo -->
+        <a href="curriculo.pdf" download
+          class="inline-block bg-yellow-300 text-purple-800 font-semibold px-6 py-2 rounded-full hover:bg-yellow-400 transition">
+          📄 Baixar Currículo
+        </a>
+
+      </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos" class="py-20">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-10">Projetos</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Projeto 1 -->
+          <div class="bg-white/20 p-6 rounded-lg shadow hover:shadow-xl transition">
+            <h3 class="text-xl font-semibold mb-2">Projeto 1</h3>
+            <p class="text-white/90 mb-4">Descrição breve do projeto.</p>
+            <a href="#" class="text-yellow-300 hover:underline">Ver mais →</a>
+          </div>
+
+          <!-- Projeto 2 -->
+          <div class="bg-white/20 p-6 rounded-lg shadow hover:shadow-xl transition">
+            <h3 class="text-xl font-semibold mb-2">Projeto 2</h3>
+            <p class="text-white/90 mb-4">Descrição breve do projeto.</p>
+            <a href="#" class="text-yellow-300 hover:underline">Ver mais →</a>
+          </div>
+
+          <!-- Projeto 3 -->
+          <div class="bg-white/20 p-6 rounded-lg shadow hover:shadow-xl transition">
+            <h3 class="text-xl font-semibold mb-2">Projeto 3</h3>
+            <p class="text-white/90 mb-4">Descrição breve do projeto.</p>
+            <a href="#" class="text-yellow-300 hover:underline">Ver mais →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="py-20">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-4">Entre em Contato</h2>
+        <p class="text-lg text-white/90 mb-6">
+          Me mande um e-mail em:
+          <a href="mailto:l9889641@gmail.com" class="text-yellow-300 hover:underline">l9889641@gmail.com</a>
+        </p>
+        <div class="flex justify-center gap-6">
+          <a href="#" class="hover:text-yellow-300">LinkedIn</a>
+          <a href="https://github.com/Luana873" class="hover:text-yellow-300">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="py-6 text-center text-white/80">
+      &copy; 2025 Luana Pinheiro. Todos os direitos reservados.
+    </footer>
+    
+  </body>
+</html>
