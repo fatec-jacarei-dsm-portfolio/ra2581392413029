@@ -7,7 +7,7 @@ src/routes/index.tsx
 ## Como inicializar portifólio
 
 ```sh
-git clone <this-repository-url>
+git clone https://github.com/fatec-jacarei-dsm-portfolio/ra2581392413029.git
 cd ./docs
 npm i
 npm run dev
