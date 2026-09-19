@@ -1,6 +1,6 @@
 # Luana Pinheiro  Portfolio
 
-Portifólio da aluna Luana Pinheiro, RA 2581392413029
+Portifólio da aluna Luana Pinheiro, RA 2581392413029, 
 página principal se encontra em:
 src/routes/index.tsx
 
